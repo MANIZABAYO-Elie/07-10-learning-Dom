@@ -15,6 +15,9 @@ function changeColor(){
 function display(){
     thanks.innerHTML = "thanks for reaching with us"
 }
+const countValue = document.getElementById('count_value');
+const plusBtn =  document.getElementById('plusBtn');
+const minusBtn =  document.getElementById('minusBtn');
 
 
 
