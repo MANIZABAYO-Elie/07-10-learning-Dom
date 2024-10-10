@@ -25,5 +25,11 @@ minusBtn.addEventListener('click',function(){
     
     console.log("clicked");
 })
+plusBtn.addEventListener('click',function(){
+   
+    countValue.innerHTML = count++;
+    
+    console.log("clicked");
+})
 
 
