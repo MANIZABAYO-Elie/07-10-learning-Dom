@@ -18,6 +18,11 @@ function display(){
 const countValue = document.getElementById('count_value');
 const plusBtn =  document.getElementById('plusBtn');
 const minusBtn =  document.getElementById('minusBtn');
-
+let count =0;
+minusBtn.addEventListener('click',function(){
+   
+    countValue.innerHTML = count;
+    count--
+})
 
 
