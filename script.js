@@ -4,7 +4,7 @@ const thanks   = document.querySelector('#thanks')
 submitButton.addEventListener('click',function(){
     //console.log('hello world');
     changeColor();
-    display()
+    //display()
     
     
 })
