@@ -21,8 +21,9 @@ const minusBtn =  document.getElementById('minusBtn');
 let count =0;
 minusBtn.addEventListener('click',function(){
    
-    countValue.innerHTML = count;
-    count--
+    countValue.innerHTML = count--;
+    
+    console.log("clicked");
 })
 
 
